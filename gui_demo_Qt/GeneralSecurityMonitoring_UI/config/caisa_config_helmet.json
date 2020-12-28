@@ -1,0 +1,22 @@
+{
+    "frame_queue_size": 16,
+    "batch_size": 4,
+    "demo_way_camera": 1,                                                                                                                 
+    "demo_step": 1,                                                                                                                        
+    "demo_wait_time_ms": 30, 
+    "draw_roi": false,
+    "person_yolo": {
+        "sg": "../../models/person_8bit_new.sg",
+        "device": "CAISA",
+        "config": "../../models/person_8bit.config"
+    },
+    "person_attributes": {
+        "sg": "../../models/RedUniform_Helmetf_nopeople_8bit.sg",
+        "device": "CAISA",
+        "processing_name": "helmet_uniform",
+        "person_threshold": 0.5,
+	    "helmet_threshold": 0.5,
+        "uniform_threshold": 0.5,
+        "ov_threshold":0.5
+    }
+}

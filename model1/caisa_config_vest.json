@@ -1,0 +1,32 @@
+{
+    "frame_queue_size": 16,
+    "batch_size": 4, 
+    "draw_roi": true, 
+    "person_yolo": {
+        "sg": "../../../models/person_8bit_new.sg",
+        "device": "CAISA",
+        "config": "../../../models/person_8bit.config"
+    },
+    "person_attributes": {
+        "sg": "../../../models/vest_helmet_person8bit.sg",
+        "device": "CAISA",
+        "processing_name": "helmet_vest",
+        "person_threshold": 0.5,
+	"helmet_threshold": 0.5,
+        "uniform_threshold": 0.5,
+        "ov_threshold":0.5
+    },
+    "skin_exposure": {
+        "sg": "../../../models/skin_8bit.sg",
+        "device": "CAISA",
+        "batch_size": 4,
+        "area_threshold": 50,
+        "score_threshold": 0.5
+    },
+    "fire_smoke": {
+        "sg": "../../../models/fire_new.sg",
+        "device": "CAISA",
+        "five": false,
+        "alarm_gap":1
+    }
+}

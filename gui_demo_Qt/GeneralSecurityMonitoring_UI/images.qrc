@@ -1,0 +1,28 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>images/close.png</file>
+        <file>images/corerain-logo.png</file>
+        <file>images/default-face.png</file>
+        <file>images/default-main-left.png</file>
+        <file>images/detect.png</file>
+        <file>images/display.png</file>
+        <file>images/drop-menu-arrow.png</file>
+        <file>images/drop-menu-bg.png</file>
+        <file>images/faceInfo-bg.png</file>
+        <file>images/left-bottom.png</file>
+        <file>images/left-feature.png</file>
+        <file>images/left-top.png</file>
+        <file>images/logo.png</file>
+        <file>images/logo1.png</file>
+        <file>images/main-bg.png</file>
+        <file>images/right-bottom.png</file>
+        <file>images/right-top.png</file>
+        <file>images/stop.png</file>
+        <file>images/tital.png</file>
+        <file>images/tital1.png</file>
+        <file>images/top-bg.png</file>
+        <file>images/top.png</file>
+        <file>images/title_0.png</file>
+        <file>images/loading</file>
+    </qresource>
+</RCC>

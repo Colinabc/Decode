@@ -1,0 +1,19 @@
+{
+	"frame_queue_size": 16,
+    "batch_size": 4,
+	"draw_roi": true,
+    "person_yolo": {
+        "sg": "../../models/head_20201107_8bit.sg",
+        "device": "CAISA",
+        "config": "../../models/head_20201107_8bit.config"
+    },
+    "face_attributes": {
+        "sg": "../../models/res50_v1_phone-1028_8bit.sg",
+        "device": "CAISA",
+        "processing_name": "smoke_phone",
+		"expand_rate": 1.3,
+        "phone_threshold": 0.4,
+	    "smoke_threshold": 0.4,
+        "others_threshold": 0.5
+    }
+}

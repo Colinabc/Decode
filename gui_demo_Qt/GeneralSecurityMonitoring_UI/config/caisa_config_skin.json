@@ -1,0 +1,20 @@
+{
+    "frame_queue_size": 16,
+    "batch_size": 4,
+    "demo_way_camera": 1,                                                                                                                 
+    "demo_step": 1,                                                                                                                        
+    "demo_wait_time_ms": 30, 
+    "draw_roi": false,
+    "person_yolo": {
+        "sg": "../../models/person_8bit_new.sg",
+        "device": "CAISA",
+        "config": "../../models/person_8bit.config"
+    },
+    "skin_exposure": {
+        "sg": "../../models/skin_8bit.sg",
+        "device": "CAISA",
+        "batch_size": 4,
+        "area_threshold": 50,
+        "score_threshold": 0.5
+    }
+}

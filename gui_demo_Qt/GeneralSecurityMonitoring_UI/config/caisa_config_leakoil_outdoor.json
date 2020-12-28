@@ -1,0 +1,13 @@
+{
+	"frame_queue_size": 16,
+    "batch_size": 4,
+	"draw_roi": true,
+    "leak_oil": {
+        "sg": "../../models/deeplab_oil_1028_8bit.sg",
+        "device": "CAISA",
+		"cls_sg": "../../models/resnet50_v1_oil_1014_8bit.sg",
+		"run_cls": true,
+		"cls_ratio_min": 2,
+		"leak_oil_threshold": 0.001
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "alarm_font":[
+        0,
+        0,
+        0
+    ],
+    "no_alarm_font":[
+        0,
+        255,
+        0
+    ],
+    "alarm_rectangle":[
+        0,
+        0,
+        255
+    ],
+    "no_alarm_rectangle":[
+        0,
+        255,
+        0
+    ],
+    "alarm_areas":[
+        0,
+        0,
+        255
+    ]
+}

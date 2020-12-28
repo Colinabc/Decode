@@ -1,0 +1,14 @@
+{
+    "frame_queue_size": 16,
+    "batch_size": 4,
+    "demo_way_camera": 1,                                                                                                                 
+    "demo_step": 1,                                                                                                                        
+    "demo_wait_time_ms": 30, 
+    "draw_roi": false,
+    "fire_smoke": {
+        "sg": "../../models/fire_new.sg",
+        "device": "CAISA",
+        "five": false,
+        "alarm_gap":1
+    }
+}

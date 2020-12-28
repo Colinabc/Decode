@@ -1,0 +1,16 @@
+{
+  "frame_queue_size": 64,
+  "batch_size": 4,
+  "draw_roi": true,
+  "person_yolo": {
+    "sg": "../../models/fall_only_onecls.sg",
+    "device": "CAISA",
+    "config": "../../models/person_fall_onecls.config"
+  },
+  "falldown_cls": {
+    "sg": "../../models/fall_peta_8bit.sg",
+    "device": "CAISA",
+    "processing_name": "falldown",
+    "fall_threshold": 0.5
+  }
+}
